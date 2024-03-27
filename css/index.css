@@ -4,7 +4,8 @@
     color: #eee;
 }
 
-.clearfix:before, .clearfix:after {
+.clearfix:before,
+.clearfix:after {
     content: "";
     display: table;
 }
@@ -25,7 +26,10 @@ body {
     background: url(../src/pexels-instawalli.jpg) center no-repeat;
 }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+    color: #ddd;
+}
 
 a:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -50,8 +54,10 @@ a:hover {
 
 .nav {
     float: left;
+
     li {
         float: left;
+
         a {
             line-height: 110px;
             margin-left: 80px;
@@ -61,6 +67,7 @@ a:hover {
 
 .search {
     float: left;
+
     input {
         float: left;
         margin-top: 40px;
@@ -74,6 +81,7 @@ a:hover {
         font-size: 12px;
         color: rgba(255, 255, 255, 0.7);
     }
+
     button {
         float: left;
         margin-top: 40px;
@@ -83,6 +91,7 @@ a:hover {
         border-radius: 0 15px 15px 0;
         box-shadow: 5px 0 5px 5px rgba(255, 255, 255, 0.3);
         border: 0;
+
         img {
             width: 30px;
         }
@@ -92,6 +101,7 @@ a:hover {
 .content {
     width: 800px;
     margin: auto;
+
     ul>li {
         height: 250px;
         float: left;
@@ -102,18 +112,22 @@ a:hover {
         box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
         padding: 20px;
     }
+
     .part1 {
         width: 310px;
         line-height: 45px;
+
         audio {
             border-radius: 50px;
             box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
         }
     }
+
     .part2 {
         width: 310px;
         line-height: 50px;
         margin-right: 0;
+
         Video {
             width: 320px;
             border-radius: 20px;
@@ -132,19 +146,23 @@ a:hover {
     color: #ddd;
     background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
+
     .copyright {
         float: left;
         margin-left: 300px;
         margin-top: 30px;
     }
+
     .links {
         float: right;
         margin-right: 400px;
         margin-top: 30px;
         text-align: left;
+
         dt {
             font-size: 16px;
         }
+
         dd {
             font-size: 12px;
         }
