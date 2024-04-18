@@ -1,31 +1,26 @@
 main {
     width: 1000px;
     margin: 30px auto;
-}
-
-main ul li {
-    float: left;
-    width: 300px;
-    height: 280px;
-    margin: 30px 48.5px;
-    padding: 30px 50px;
-    border: #000 solid;
-    border-radius: 25px;
-}
-
-main ul .part1 p {
-    line-height: 30px;
-}
-
-main ul .part1 p a {
-    color: #000;
-}
-
-main ul .part2 p {
-    line-height: 30px;
-}
-
-main ul .part2 audio, Video {
-    width: 300px;
-    border-radius: 25px;
+    ul li {
+        float: left;
+        width: 300px;
+        height: 280px;
+        margin: 30px 48.5px;
+        padding: 30px 50px;
+        border: #000 solid;
+        border-radius: 25px;
+    }
+    ul .part1 p {
+        line-height: 30px;
+        a {
+            color: #000;
+        }
+    }
+    ul .part2 p {
+        line-height: 30px;
+    }
+    ul .part2 audio, Video {
+        width: 300px;
+        border-radius: 25px;
+    }
 }

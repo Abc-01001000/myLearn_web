@@ -1,8 +1,18 @@
 header {
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
     background-color: #eee;
+    h1 {
+        margin: auto;
+        width: 1000px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background-color: #eee;
+    }
+}
+
+.down {
+    position: absolute;
+    display: none;
 }
 
 nav {
@@ -13,55 +23,75 @@ nav {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-}
-
-nav .outside {
-    width: 1000px;
-    height: 50px;
-    margin: 0 auto;
-    padding: 30px 0;
-    background-color: #fff;
-}
-
-nav .outside .logo {
-    float: left;
-    width: 47px;
-    height: 47px;
-    margin-right: 20px;
-    background: url(../src/head.png) center no-repeat;
-    background-size: 40px;
-    border: #000 solid;
-    border-radius: 25px;
-}
-
-nav .outside>ul>li {
-    float: left;
-    margin: 0 25px;
-    padding-left: 30px;
-    line-height: 50px;
-}
-
-nav .outside ul li:hover {
-    border-bottom: #000 solid;
-    height: 48.5px;
-    line-height: 48.5px;
-    /* margin: 0 23.5px; */
-}
-
-nav .outside ul .home {
-    background: url(../src/home.png) left no-repeat;
-    background-size: 20px;
-}
-
-nav .outside ul .work, .edu, .country, .chikawa {
-    position: relative;
-    background: url(../src/bug.png) left no-repeat;
-    background-size: 20px;
-}
-
-.down {
-    position: absolute;
-    display: none;
+    .outside {
+        width: 1000px;
+        height: 50px;
+        margin: 0 auto;
+        padding: 30px 0;
+        background-color: #fff;
+        .logo {
+            float: left;
+            width: 47px;
+            height: 47px;
+            margin-left: 15px;
+            margin-right: 20px;
+            background: url(../src/head.png) center no-repeat;
+            background-size: 40px;
+            border: #000 solid;
+            border-radius: 25px;
+        }
+        ul li:hover {
+            border-bottom: #000 solid;
+            height: 48.5px;
+            line-height: 48.5px;
+            /* margin: 0 23.5px; */
+        }
+        ul .home {
+            background: url(../src/home.png) left no-repeat;
+            background-size: 20px;
+        }
+        ul .work, .edu, .country, .chikawa {
+            position: relative;
+            background: url(../src/bug.png) left no-repeat;
+            background-size: 20px;
+        }
+        ul li a {
+            color: #000;
+        }
+        input, button {
+            float: left;
+            margin: 5px 0;
+            height: 40px;
+            border: 0;
+            border: solid;
+            border-color: #000;
+            border-left: 0;
+        }
+        input {
+            margin-left: 30px;
+            padding-left: 15px;
+            height: 37px;
+            background-color: #fff;
+            border-radius: 20px 0 0 20px;
+            color: #666;
+            border: solid;
+            border-color: #000;
+            border-right: 0;
+        }
+        button {
+            width: 40px;
+            background: url(../src/search.png) center no-repeat;
+            background-size: 25px;
+            background-color: #fff;
+            border-radius: 0 20px 20px 0;
+        }
+    }
+    .outside>ul>li {
+        float: left;
+        margin: 0 25px;
+        padding-left: 30px;
+        line-height: 50px;
+    }
 }
 
 .work:hover .down {
@@ -84,73 +114,29 @@ nav .outside ul .work, .edu, .country, .chikawa {
     border-radius: 25px;
 }
 
-nav .outside ul li a {
-    color: #000;
-}
-
-nav .outside input, button {
-    float: left;
-    margin: 5px 0;
-    height: 40px;
-    border: 0;
-    border: solid;
-    border-color: #000;
-    border-left: 0;
-}
-
-nav .outside input {
-    margin-left: 40px;
-    padding-left: 15px;
-    height: 37px;
-    background-color: #fff;
-    border-radius: 20px 0 0 20px;
-    color: #666;
-    border: solid;
-    border-color: #000;
-    border-right: 0;
-}
-
-/* nav .outside input:checked {
-    border: #000 solid;
-} */
-
-nav .outside button {
-    width: 40px;
-    background: url(../src/search.png) center no-repeat;
-    background-size: 25px;
-    background-color: #fff;
-    border-radius: 0 20px 20px 0;
-}
-
 /* ============================================= */
 
 footer {
-    margin-top: 30px;
-    height: 250px;
     background-color: #ddd;
-}
-
-footer .outside {
-    width: 900px;
-    margin: 0 auto;
-}
-
-footer .outside div {
-    float: left;
-    width: 250px;
-    margin: 30px 75px;
-    padding-left: 50px;
-}
-
-footer .outside .copyright {
-    color: #666;
-}
-
-footer .outside .links dl dt {
-    color: #666;
-}
-
-footer .outside .links dl dd a {
-    color: #999;
-    font-size: 12px;
+    .outside {
+        margin: auto;
+        height: 250px;
+        width: 1000px;
+        div {
+            float: left;
+            width: 250px;
+            margin: 30px 75px;
+            padding-left: 50px;
+        }
+        .copyright {
+            color: #666;
+        }
+        .links dl dt {
+            color: #666;
+        }
+        .links dl dd a {
+            color: #999;
+            font-size: 12px;
+        }
+    }
 }
