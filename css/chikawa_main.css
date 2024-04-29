@@ -1,0 +1,65 @@
+.hbg {
+    background: url(../src/kv_01.jpg) center no-repeat;
+    background-size: cover;
+    min-width: 1000px;
+    min-height: calc(60vw);
+    border: solid #000;
+    border-width: 0 0 1.5px 0;
+}
+
+#bgleft {
+    float: left;
+    width: 200px;
+    height: 500px;
+    img {
+        width: 200px;
+    }
+}
+
+.banner {
+    float: left;
+    width: 300px;
+    margin: 50px;
+    .banner_p {
+        width: 300px;
+        height: 400px;
+        background-color: #eee;
+        border-radius: 20px;
+        .img-box {
+            position: absolute;
+            opacity: 0;
+            transition: all 1.5s;
+            img {
+                width: 250px;
+                margin: 25px 25px;
+            }
+        }
+    }
+    .banner_p .img-box:first-child {
+        opacity: 1;
+    }
+}
+
+.menu {
+    float: left;
+    margin: 50px auto;
+    li {
+        background-color: #eee;
+        margin: 30px;
+        padding-left: 40px;
+        width: 300px;
+        height: 90px;
+        border-radius: 20px;
+        line-height: 90px;
+        font-size: larger;
+        a {
+            width: 300px;
+            height: 90px;
+            color: #000;
+        }
+    }
+}
+
+.menu li:hover {
+    background-color: #aaa;
+}

@@ -1,0 +1,14 @@
+.mainc {
+    width: 800px;
+    margin: 50px auto;
+    img{
+        float: left;
+        width: 200px;
+    }
+    div {
+        float: left;
+        width: 400px;
+        height: 220px;
+        margin: 50px 100px;
+    }
+}

@@ -1,0 +1,24 @@
+main {
+    width: 800px;
+    margin: 30px auto;
+    padding: 50px;
+    border: solid #000;
+    border-radius: 20px;
+    div {
+        float: left;
+        margin: 0 25px;
+    }
+    table {
+        width: 300px;
+        td {
+            line-height: 30px;
+        }
+    }
+    .content {
+        width: 400px;
+    }
+    .title {
+        font-weight: 1000;
+        font-size: large;
+    }
+}

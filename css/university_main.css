@@ -1,0 +1,79 @@
+
+main {
+    .banner {
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        height: 500px;
+        overflow: hidden;
+        .banner_p li img {
+            position: absolute;
+            width: 1000px;
+        }
+        .img-box {
+            opacity: 0;
+            transition: all 1.5s;
+        }
+        .banner_p .img-box:first-child {
+            opacity: 1;
+        }
+        #left, #right {
+            position: absolute;
+            top: 235px;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            background-color: rgba(25, 25, 25, 0.2);
+            line-height: 30px;
+            text-align: center;
+            color: #eee;
+        }
+        #left {
+            left: 10px;
+        }
+        #right {
+            right: 10px;
+        }
+        #left:hover, #right:hover{
+            background-color: rgba(25, 25, 25, 0.6);
+        }
+        .banner_l {
+            position: absolute;
+            bottom: 10px;
+            width: 175px;
+            left: 412.5px;
+        }
+        .banner_l>li {
+            float: left;
+            margin: 0 5px;
+            height: 15px;
+            width: 15px;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+        }
+        /* .banner_l>li:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+        } */
+    }
+    .content {
+        margin: 30px auto;
+        width: 900px;
+        border: #000 solid;
+        border-radius: 20px;
+        .left {
+            float: left;
+            margin: 30px 30px;
+            background: url(../src/gnnu_logo.png) center no-repeat;
+            background-size: 300px;
+            width: 300px;
+            height: 300px;
+        }
+        .right {
+            float: left;
+            margin: 20px auto;
+            width: 420px;
+            height: 200px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+main {
+    .left {
+        float: left;
+        width: 200px;
+        height: 500px;
+        img {
+            width: 200px;
+        }
+    }
+    p {
+        width: 500px;
+        margin: 120px auto;
+        line-height: 30px;
+    }
+}
