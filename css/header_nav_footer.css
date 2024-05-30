@@ -51,7 +51,7 @@ nav {
             background: url(../src/home.png) left no-repeat;
             background-size: 20px;
         }
-        ul .work, .edu, .country, .chikawa {
+        ul .work, .edu, .country, .other {
             position: relative;
             background: url(../src/bug.png) left no-repeat;
             background-size: 20px;
@@ -95,7 +95,9 @@ nav {
     }
 }
 
-.work:hover .down {
+.work:hover .down,
+.edu:hover .down,
+.other:hover .down {
     display: block;
     width: 100%;
     padding: 10px 25px;
@@ -105,7 +107,7 @@ nav {
     border-radius: 25px;
 }
 
-.edu:hover .down {
+/* .edu:hover .down {
     display: block;
     width: 100%;
     padding: 10px 25px;
@@ -113,7 +115,7 @@ nav {
     background-color: #fff;
     border: #000 solid;
     border-radius: 25px;
-}
+} */
 
 /* ============================================= */
 
