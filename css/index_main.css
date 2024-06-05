@@ -1,4 +1,4 @@
-#boll {
+.boll-inner {
     margin: auto;
     margin-top: 40px;
     background-color: #579;
@@ -22,7 +22,7 @@
     }
 }
 
-#shadow {
+.shadow-inner {
     /* display: flex;
     justify-content: center;
     align-content: center; */
@@ -63,4 +63,21 @@ main .boll {
 main .shadow {
     margin-bottom: 50px;
     height: 50px;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 4;
+    .boll {
+        margin-top: 15%;
+    }
+    p {
+        margin-top: 20px;
+        text-align: center;
+    }
 }

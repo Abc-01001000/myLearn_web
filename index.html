@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/clearfix_init.css">
   <link rel="stylesheet" href="./css/header_nav_footer.css">
   <link rel="stylesheet" href="./css/index_main.css">
+  <link rel="stylesheet" href="./css/click.css">
 </head>
 <body>
   <!-- head start -->
@@ -22,18 +23,7 @@
           <a href="./index.html">主页</a>
         </li>
         <li class="work">
-          <a href="#">作业</a>
-          <ul class="down">
-            <li>
-              <a href="./html/profile.html">作业1</a>
-            </li>
-            <li>
-              <a href="./html/classTable.html">课程表</a>
-            </li>
-            <li>
-              <a href="./html/form.html">表单</a>
-            </li>
-          </ul>
+          <a href="./html/my_home_page.html">我的主页</a>
         </li>
         <li class="edu">
           <a href="#">教育经历</a>
@@ -53,7 +43,7 @@
           <a href="./html/home_town.html">我的家乡</a>
         </li>
         <li class="other">
-          <a href="#">其他玩意</a>
+          <a href="#">其他</a>
           <ul class="down">
             <li>
               <a href="./html/chikawa.html">Chikawa</a>
@@ -62,7 +52,13 @@
               <a href="./html/reading.html">阅读推荐</a>
             </li>
             <li>
-              <a href="./html/my_home_page.html">我的主页</a>
+              <a href="./html/profile.html">作业1</a>
+            </li>
+            <li>
+              <a href="./html/classTable.html">课程表</a>
+            </li>
+            <li>
+              <a href="./html/form.html">表单</a>
             </li>
           </ul>
         </li>
@@ -89,12 +85,11 @@
       </p>
     </div>
     <section class="boll">
-      <section id="boll"></section>
+      <section class="boll-inner"></section>
     </section>
     <section class="shadow">
-      <section id="shadow"></section>
+      <section class="shadow-inner"></section>
     </section>
-      
   </main>
   <!-- main end -->
   <!-- footer start -->
@@ -126,5 +121,18 @@
     </div>
   </footer>
   <!-- footer end -->
+  <section class="loader">
+    <section class="boll">
+      <section class="boll-inner"></section>
+    </section>
+    <section class="shadow">
+      <section class="shadow-inner"></section>
+    </section>
+    <p>
+      loading...
+    </p>
+  </section>
+  <script src="./js/load.js"></script>
+  <script src="./js/click.js"></script>
 </body>
 </html>
