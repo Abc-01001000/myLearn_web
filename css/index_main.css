@@ -1,26 +1,66 @@
-main {
-    width: 1000px;
+#boll {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #579;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: 2;
+    animation: 1s linear 0s alternate infinite boll;
+}
+
+@keyframes boll {
+    from {
+        height: 190px;
+        width: 210px;
+        transform: translateY(50px);
+    }
+    to {
+        height: 200px;
+        width: 190px;
+        transform: translateY(-100px);
+    }
+}
+
+#shadow {
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    animation: 1s linear 0s alternate infinite shadow;
+}
+
+@keyframes shadow {
+    from { 
+        height: 50px;
+        width: 150px;
+    }
+    to {
+        height: 20px;
+        width: 80px;
+    }
+}
+
+main div {
     margin: 30px auto;
-    ul li {
-        float: left;
-        width: 300px;
-        height: 280px;
-        margin: 30px 48.5px;
-        padding: 30px 50px;
-        border: #000 solid;
-        border-radius: 25px;
-    }
-    ul .part1 p {
-        line-height: 30px;
-        a {
-            color: #000;
-        }
-    }
-    ul .part2 p {
-        line-height: 30px;
-    }
-    ul .part2 audio, Video {
-        width: 300px;
-        border-radius: 25px;
-    }
+    width: 800px;
+    border: solid #000;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+main .boll {
+    height: 200px;
+}
+
+main .shadow {
+    margin-bottom: 50px;
+    height: 50px;
 }

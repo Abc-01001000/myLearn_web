@@ -47,6 +47,9 @@ nav {
             line-height: 48.5px;
             /* margin: 0 23.5px; */
         }
+        ul li:hover {
+            animation: 1s linear 0s alternate infinite line;
+        }
         ul .home {
             background: url(../src/home.png) left no-repeat;
             background-size: 20px;

@@ -58,7 +58,7 @@ main {
     }
     .content {
         margin: 30px auto;
-        width: 900px;
+        width: 800px;
         border: #000 solid;
         border-radius: 20px;
         .left {
