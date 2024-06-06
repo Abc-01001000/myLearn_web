@@ -36,7 +36,7 @@ onload = () => {
         git.textContent = " git ";
         git.setAttribute('style', 'color: yellow; display: inline-block');
         loader.appendChild(git);
-    }, 3000);
+    }, 2500);
     setTimeout(() => {
         let p = document.createElement("p"),
             br = document.createElement("br");
@@ -44,7 +44,7 @@ onload = () => {
         p.setAttribute('style', 'display: inline-block');
         loader.appendChild(p);
         loader.appendChild(br);
-    }, 3000);
+    }, 2500);
 
     for (let i = 1; i < line.length; ++i) {
         setTimeout(() => {
@@ -57,28 +57,28 @@ onload = () => {
             }
             loader.appendChild(p);
             loader.appendChild(br);
-        }, 3000 + i * 500);
+        }, 3000 + i * 200);
     }
 
     setTimeout(() => {
         let loading = document.getElementById("loading");
         if (loading) {
-            setTimeout(() => { loading.textContent = "[>\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0] \xa00%"; }, 300);
-            setTimeout(() => { loading.textContent = "[=>\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0] \xa010%"; }, 600);
-            setTimeout(() => { loading.textContent = "[==>\xa0\xa0\xa0\xa0\xa0\xa0\xa0] \xa020%"; }, 900);
-            setTimeout(() => { loading.textContent = "[===>\xa0\xa0\xa0\xa0\xa0\xa0] \xa030%"; }, 1200);
-            setTimeout(() => { loading.textContent = "[====>\xa0\xa0\xa0\xa0\xa0] \xa040%"; }, 1500);
-            setTimeout(() => { loading.textContent = "[=====>\xa0\xa0\xa0\xa0] \xa050%"; }, 1800);
-            setTimeout(() => { loading.textContent = "[======>\xa0\xa0\xa0] \xa060%"; }, 2100);
-            setTimeout(() => { loading.textContent = "[=======>\xa0\xa0] \xa070%"; }, 2400);
-            setTimeout(() => { loading.textContent = "[========>\xa0] \xa080%"; }, 2700);
-            setTimeout(() => { loading.textContent = "[=========>] \xa090%"; }, 3000);
-            setTimeout(() => { loading.textContent = "[==========] \xa0100%"; }, 3300);
+            setTimeout(() => { loading.textContent = "[>\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0] \xa00%"; }, 200);
+            setTimeout(() => { loading.textContent = "[=>\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0] \xa010%"; }, 400);
+            setTimeout(() => { loading.textContent = "[==>\xa0\xa0\xa0\xa0\xa0\xa0\xa0] \xa020%"; }, 450);
+            setTimeout(() => { loading.textContent = "[===>\xa0\xa0\xa0\xa0\xa0\xa0] \xa030%"; }, 600);
+            setTimeout(() => { loading.textContent = "[====>\xa0\xa0\xa0\xa0\xa0] \xa040%"; }, 650);
+            setTimeout(() => { loading.textContent = "[=====>\xa0\xa0\xa0\xa0] \xa050%"; }, 700);
+            setTimeout(() => { loading.textContent = "[======>\xa0\xa0\xa0] \xa060%"; }, 900);
+            setTimeout(() => { loading.textContent = "[=======>\xa0\xa0] \xa070%"; }, 1000);
+            setTimeout(() => { loading.textContent = "[========>\xa0] \xa080%"; }, 1500);
+            setTimeout(() => { loading.textContent = "[=========>] \xa090%"; }, 1600);
+            setTimeout(() => { loading.textContent = "[==========] \xa0100%"; }, 1800);
         }
-    }, 3000 + line.length * 500);
+    }, 5000);
 
     setTimeout(() => {
         loader.remove();
         loader_wrapper.remove();
-    }, 3000 + line.length * 500 + 4300);
+    }, 7000);
 };
