@@ -10,7 +10,7 @@
 
 @keyframes ripple-animation {
     to {
-        transform: scale(0.1);
+        transform: scale(1);
         opacity: 0;
     }
 }
