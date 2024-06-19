@@ -1,5 +1,5 @@
 
-let index = -1,
+let index = 0,
     pic = document.getElementsByClassName("img-box"),
     list = document.getElementsByClassName("list"),
     interval = null;
@@ -30,7 +30,7 @@ autoPlay();
 let left = document.getElementById("left"), 
     right = document.getElementById("right");
 left.onclick = () => {
-    index -= 2;
+    index -= 1;
     clearInterval(interval);
     if (index <= -1) {
         index = pic.length - 1;

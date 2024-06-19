@@ -1,0 +1,19 @@
+.content p {
+    /* display: inline-block; */
+    margin-top: 50px;
+    width: 500px;
+}
+
+.content>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 30px;
+    margin-left: 100px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 20px;
+    border: #000 solid;
+}

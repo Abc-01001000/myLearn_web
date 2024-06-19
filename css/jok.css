@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+        /* display: block; */
+        width: 30%;
+        margin: 1.5%;
+        /* margin: 30px auto; */
+    
+    }
+}
+
+main p {
+    margin: 5% auto;
+    font-size: 20px;
+    text-align: center;
+}

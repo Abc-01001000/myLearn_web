@@ -14,9 +14,10 @@ header {
         text-align: center;
         margin-left: 10px;
         height: 30px;
-        width: 30px;
+        width: 70px;
         border: #000 solid;
         border-radius: 5px;
+        color: #000;
     }
 }
 
