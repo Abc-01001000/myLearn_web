@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ubuntu_mono';
-    src: url(../fonts/ubuntu_mono/UbuntuMono-R.ttf) format(truetype);
+    src: url(../src/fonts/ubuntu_mono/UbuntuMono-R.ttf) format(truetype);
 }
 
 .loader-wrapper {
@@ -12,7 +12,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: url(../src/hp_bg.jpg) no-repeat center;
+    background: url(../src/img/hp_bg.jpg) no-repeat center;
     background-size: 100%;
     z-index: 4;
 }

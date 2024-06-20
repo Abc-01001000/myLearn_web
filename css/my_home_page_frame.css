@@ -15,8 +15,8 @@ header {
         margin-left: 10px;
         height: 30px;
         width: 70px;
-        border: #000 solid;
-        border-radius: 5px;
+        /* border: #000 solid;
+        border-radius: 5px; */
         color: #000;
     }
 }
@@ -31,7 +31,7 @@ main {
         border: #aaa solid;
         border-width: 0 1px 0 0;
     }
-    ul>li {
+    .nav ul>li {
         display: flex;
         align-items: center;
         width: 100%;
@@ -42,7 +42,7 @@ main {
             color: #666;
         }
     }
-    ul>li:hover {
+    .nav ul>li:hover {
         width: calc(100% - 5px);
         border: #000 solid;
         border-width: 0 5px 0 0;

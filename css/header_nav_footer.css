@@ -36,7 +36,7 @@ nav {
             height: 47px;
             margin-left: 15px;
             margin-right: 20px;
-            background: url(../src/head.png) center no-repeat;
+            background: url(../src/img/head.png) center no-repeat;
             background-size: 40px;
             border: #000 solid;
             border-radius: 25px;
@@ -51,12 +51,12 @@ nav {
             animation: 1s linear 0s alternate infinite line;
         }
         ul .home {
-            background: url(../src/home.png) left no-repeat;
+            background: url(../src/img/home.png) left no-repeat;
             background-size: 20px;
         }
         ul .work, .edu, .country, .other {
             position: relative;
-            background: url(../src/bug.png) left no-repeat;
+            background: url(../src/img/bug.png) left no-repeat;
             background-size: 20px;
         }
         ul li a {
@@ -84,7 +84,7 @@ nav {
         }
         button {
             width: 40px;
-            background: url(../src/search.png) center no-repeat;
+            background: url(../src/img/search.png) center no-repeat;
             background-size: 25px;
             background-color: #fff;
             border-radius: 0 20px 20px 0;

@@ -1,5 +1,5 @@
 html body {
-    background: url(../src/bg_01.jpg) center no-repeat;
+    background: url(../src/img/bg_01.jpg) center no-repeat;
     background-size: cover;
     min-width: 1000px;
 }
@@ -42,7 +42,7 @@ nav {
             height: 47px;
             margin-left: 15px;
             margin-right: 20px;
-            background: url(../src/head.png) center no-repeat;
+            background: url(../src/img/head.png) center no-repeat;
             background-size: 40px;
             border: #000 solid;
             border-radius: 25px;
@@ -54,12 +54,12 @@ nav {
             /* margin: 0 23.5px; */
         }
         ul .home {
-            background: url(../src/home.png) left no-repeat;
+            background: url(../src/img/home.png) left no-repeat;
             background-size: 20px;
         }
         ul .work, .edu, .country, .other {
             position: relative;
-            background: url(../src/bug.png) left no-repeat;
+            background: url(../src/img/bug.png) left no-repeat;
             background-size: 20px;
         }
         ul li a {
@@ -87,7 +87,7 @@ nav {
         }
         button {
             width: 40px;
-            background: url(../src/search.png) center no-repeat;
+            background: url(../src/img/search.png) center no-repeat;
             background-size: 25px;
             background-color: rgb(162, 209, 145);
             border-radius: 0 20px 20px 0;
@@ -118,7 +118,7 @@ nav {
 footer {
     background: rgb(162, 209, 145);
     .outside {
-        background: url(../src/bg_foot_01.png) center no-repeat;
+        background: url(../src/img/bg_foot_01.png) center no-repeat;
         background-size: cover;
         margin: auto;
         height: 250px;
